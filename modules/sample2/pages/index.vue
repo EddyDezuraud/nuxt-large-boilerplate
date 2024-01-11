@@ -8,6 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import Services from '@/modules/sample/services/index.ts';
+import Services from '@/modules/sample2/services/index.ts';
 const { data, pending, error } = await Services.getSampleApi();
 </script>
